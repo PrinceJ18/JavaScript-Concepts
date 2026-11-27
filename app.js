@@ -1,9 +1,9 @@
-// console.log("Console log here")
+console.log("Console log here")
 
-// let a = 5;
-// let b = 10;
+let a = 5;
+let b = 10;
 
-// console.log("Sum is: ", a+b);
+console.log("Sum is: ", a+b);
 
 //--------------------------------------------------------------------------//
 
@@ -24,5 +24,14 @@ let marks = 75;
 if (marks >= 33 || marks>=80) {
 console. log("pass");
 console. log("A+");
+
+}
+
+// Logical NOT Operator
+
+let marks = 75;
+
+if (!(marks <= 33)) {
+console. log("pass");
 
 }
