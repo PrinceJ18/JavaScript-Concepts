@@ -74,3 +74,8 @@ switch (color) {
     console.log("light is broken");
 
 }
+
+
+// Alert 
+
+alert("This is a alert message for the user to see");
