@@ -35,3 +35,19 @@ if (!(marks <= 33)) {
 console. log("pass");
 
 }
+
+// Truthy and falsy
+
+// Here, Empty string --> False
+if ("") {
+console.log("it has true value");
+} else {
+console.log("it has false value");
+}
+
+// Here, Space in string --> True
+if(" "){
+console. log("it has true value");
+}
+else {
+console. log("it has false value");}
