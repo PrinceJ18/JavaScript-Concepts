@@ -1,6 +1,28 @@
-console.log("Console log here")
+// console.log("Console log here")
 
-let a = 5;
-let b = 10;
+// let a = 5;
+// let b = 10;
 
-console.log("Sum is: ", a+b);
+// console.log("Sum is: ", a+b);
+
+//--------------------------------------------------------------------------//
+
+// Logical AND Operators
+
+let marks = 75;
+
+if (marks >= 33 && marks>=80) {
+console. log("pass");
+console. log("A+");
+
+}
+
+// Logical OR Operators
+
+let marks = 75;
+
+if (marks >= 33 || marks>=80) {
+console. log("pass");
+console. log("A+");
+
+}
