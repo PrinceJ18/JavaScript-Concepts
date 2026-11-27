@@ -79,3 +79,7 @@ switch (color) {
 // Alert 
 
 alert("This is a alert message for the user to see");
+
+console. log("this is a simple log");            // Prints on the html page
+console.error("this is an error msg");           // Prints error message in console
+console.warn("this is a warning msg");           // Prints warning message in console
