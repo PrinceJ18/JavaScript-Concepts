@@ -28,8 +28,21 @@
 // console.log(str.indexOf("Snake"));                  // Not Found, So -1
 // console.log(str.indexOf("J"))
 
-// Example of Method Chaining
 
-let str="     JS isCaseSensitive     ";
 
-console.log(str.toUpperCase().trim())
+// // Example of Method Chaining
+
+// let str="     JS isCaseSensitive     ";
+
+// console.log(str.toUpperCase().trim())
+
+
+// Example of stringName.slice()
+
+let str = "lloveCoding";
+
+console.log(str.slice(5))          // "Coding"
+
+console.log(str.slice(1, 5))     // "love"
+
+// str.slice(-num) = str.slice(length-num)
