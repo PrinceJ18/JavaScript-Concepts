@@ -20,10 +20,16 @@
 // console.log(LowerStr)
 
 
-// Example of stringName.indexof()
+// // Example of stringName.indexof()
 
-let str="JSisCaseSensitive";
+// let str="JSusescamelCase ";
 
-console.log(str.indexOf("Sensitive"));            
-console.log(str.indexOf("CSS"));                  // Not Found, So -1
-console.log(str.indexOf("J"))
+// console.log(str.indexOf("Case"));            
+// console.log(str.indexOf("Snake"));                  // Not Found, So -1
+// console.log(str.indexOf("J"))
+
+// Example of Method Chaining
+
+let str="     JS isCaseSensitive     ";
+
+console.log(str.toUpperCase().trim())
