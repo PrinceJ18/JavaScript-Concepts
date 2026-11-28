@@ -37,12 +37,21 @@
 // console.log(str.toUpperCase().trim())
 
 
-// Example of stringName.slice()
+// // Example of stringName.slice()
+
+// let str = "lloveCoding";
+
+// console.log(str.slice(5))          // "Coding"
+
+// console.log(str.slice(1, 5))     // "love"
+
+// str.slice(-num) = str.slice(length-num)
+
+
+//// Example of slice method
 
 let str = "lloveCoding";
 
-console.log(str.slice(5))          // "Coding"
+console.log(str.slice("love", "do"))           // "IdoCoding"
 
-console.log(str.slice(1, 5))     // "love"
-
-str.slice(-num) = str.slice(length-num)
+console.log(str.slice("o","x"))                // "IlxveCoding"
