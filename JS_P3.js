@@ -45,4 +45,4 @@ console.log(str.slice(5))          // "Coding"
 
 console.log(str.slice(1, 5))     // "love"
 
-// str.slice(-num) = str.slice(length-num)
+str.slice(-num) = str.slice(length-num)
