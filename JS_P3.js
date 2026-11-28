@@ -48,10 +48,17 @@
 // str.slice(-num) = str.slice(length-num)
 
 
-//// Example of slice method
+// //// Example of slice method
 
-let str = "lloveCoding";
+// let str = "lloveCoding";
 
-console.log(str.slice("love", "do"))           // "IdoCoding"
+// console.log(str.slice("love", "do"))           // "IdoCoding"
 
-console.log(str.slice("o","x"))                // "IlxveCoding"
+// console.log(str.slice("o","x"))                // "IlxveCoding"
+
+
+// // Example of Replace stringName.replace()
+
+// let str = "Mango";
+
+// console.log(str.repeat(3))      // "MangoMangoMango"

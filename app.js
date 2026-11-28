@@ -1,89 +1,89 @@
-console.log("Console log here")
+// console.log("Console log here")
 
-let a = 5;
-let b = 10;
+// let a = 5;
+// let b = 10;
 
-console.log("Sum is: ", a+b);
+// console.log("Sum is: ", a+b);
 
-//--------------------------------------------------------------------------//
+// //--------------------------------------------------------------------------//
 
-// Logical AND Operators
+// // Logical AND Operators
 
-let marks = 75;
+// let marks = 75;
 
-if (marks >= 33 && marks>=80) {
-console. log("pass");
-console. log("A+");
+// if (marks >= 33 && marks>=80) {
+// console. log("pass");
+// console. log("A+");
 
-}
+// }
 
-// Logical OR Operators
+// // Logical OR Operators
 
-let marks = 75;
+// let marks = 75;
 
-if (marks >= 33 || marks>=80) {
-console. log("pass");
-console. log("A+");
+// if (marks >= 33 || marks>=80) {
+// console. log("pass");
+// console. log("A+");
 
-}
+// }
 
-// Logical NOT Operator
+// // Logical NOT Operator
 
-let marks = 75;
+// let marks = 75;
 
-if (!(marks <= 33)) {
-console. log("pass");
+// if (!(marks <= 33)) {
+// console. log("pass");
 
-}
+// }
 
-// Truthy and falsy
+// // Truthy and falsy
 
-// Here, Empty string --> False
-if ("") {
-console.log("it has true value");
-} else {
-console.log("it has false value");
-}
+// // Here, Empty string --> False
+// if ("") {
+// console.log("it has true value");
+// } else {
+// console.log("it has false value");
+// }
 
-// Here, Space in string --> True
-if(" "){
-console. log("it has true value");
-}
-else {
-console. log("it has false value");}
-
-
-// Switch Statement
-
-let color = "red";
-
-switch (color) {
-    case "red":
-    console.log("stop");
-    break;
-
-    case "yellow":
-    console.log("slow down");
-    break ;
-
-    case "green":
-    console.log("go");
-    break;
-
-    default:
-    console.log("light is broken");
-
-}
+// // Here, Space in string --> True
+// if(" "){
+// console. log("it has true value");
+// }
+// else {
+// console. log("it has false value");}
 
 
-// Alert 
+// // Switch Statement
 
-alert("This is a alert message for the user to see");
+// let color = "red";
 
-console. log("this is a simple log");            // Prints on the html page
-console.error("this is an error msg");           // Prints error message in console
-console.warn("this is a warning msg");           // Prints warning message in console
+// switch (color) {
+//     case "red":
+//     console.log("stop");
+//     break;
 
-// Prompt
+//     case "yellow":
+//     console.log("slow down");
+//     break ;
 
-prompt("This is a prompt message for the user: ");
+//     case "green":
+//     console.log("go");
+//     break;
+
+//     default:
+//     console.log("light is broken");
+
+// }
+
+
+// // Alert 
+
+// alert("This is a alert message for the user to see");
+
+// console. log("this is a simple log");            // Prints on the html page
+// console.error("this is an error msg");           // Prints error message in console
+// console.warn("this is a warning msg");           // Prints warning message in console
+
+// // Prompt
+
+// prompt("This is a prompt message for the user: ");
